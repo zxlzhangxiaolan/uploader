@@ -1,0 +1,28 @@
+lr: 1e-5
+init_epoch: 0
+epochs: 50
+test_epoch: 29
+restore: false
+gpu_id: 0
+is_debug: no
+feat_dim: 2883
+name: 'coarse_mvp2m'
+save_path: 'results5'
+# train
+train_file_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/data/train_list_bak.txt'
+train_data_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ground_truth_model_data/p2mppdata/train'
+train_image_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ShapeNetImages/ShapeNetRendering'
+# vaild
+vaild_file_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/data/vaild_list.txt'
+vaild_data_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ground_truth_model_data/p2mppdata/vaild'
+vaild_image_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ShapeNetImages/ShapeNetRendering'
+
+# test
+test_file_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/data/test_list_my.txt'
+test_data_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ground_truth_model_data/p2mppdata/test'
+test_image_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ShapeNetImages/ShapeNetRendering'
+# coarse result
+coarse_result_file_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/data/train_list_bak.txt'
+coarse_result_data_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ground_truth_model_data/p2mppdata/train'
+coarse_result_image_path: '/home/fullo/公共的/fullo-Pixel2MeshPlusPlus-master/Pixel2MeshPlusPlus/ShapeNetImages/ShapeNetRendering'
+
